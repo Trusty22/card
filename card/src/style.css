@@ -2,6 +2,23 @@
     box-sizing: border-box;
 }
 
+main {
+    background-color: #1A1B21;
+}
+
 body {
+    border-radius: 10px;
+
+    margin: auto;
+    margin-top: 1%;
     background-color: #23252C;
+    width: fit-content;
+}
+
+.mandeep {
+    border-radius: 10px 10px 0px 0px;
+    width: 317px;
+    height: 317px;
+    object-fit: cover;
+    object-position: center 30%;
 }

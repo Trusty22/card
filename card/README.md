@@ -1,6 +1,6 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project will demonstrate my reactjs knowlage I will be creating a project on a simple bussiness card 
 
 Currently, two official plugins are available:
 

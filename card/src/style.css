@@ -4,15 +4,19 @@
 
 main {
     background-color: #1A1B21;
+    width: 317px;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px 4px rgb(23, 23, 23);
+    
 }
 
 body {
-    border-radius: 10px;
-
     margin: auto;
     margin-top: 1%;
+    margin-bottom: 1%;
     background-color: #23252C;
     width: fit-content;
+
 }
 
 .mandeep {
@@ -21,4 +25,24 @@ body {
     height: 317px;
     object-fit: cover;
     object-position: center 30%;
+}
+
+.links {
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+
+.links li a img {
+    margin: 20px 0;
+    width: 25px;
+}
+
+footer {
+    border-radius: 10px;
+    background-color: #161619;
 }

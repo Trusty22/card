@@ -1,6 +1,7 @@
 export default function Info() {
     return (
         <>
+        
             <div className="interactables">
                 <button>Email</button>
                 <button>LinkedIn</button>

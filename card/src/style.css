@@ -7,7 +7,7 @@ main {
     width: 317px;
     border-radius: 10px;
     box-shadow: 3px 7px 10px 4px rgb(23, 23, 23);
-    
+
 }
 
 body {
@@ -45,4 +45,13 @@ body {
 footer {
     border-radius: 10px;
     background-color: #161619;
+}
+
+article {
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif
 }

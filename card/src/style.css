@@ -53,5 +53,80 @@ article {
     display: grid;
     text-align: center;
     color: white;
-    font-family: 'Times New Roman', Times, serif
+    font-family: 'Times New Roman', Times, serif;
+}
+
+article h1 {
+    font-weight: 100;
+    letter-spacing: -5%;
+    margin: 0;
+    font-size: xx-large;
+}
+
+article h2 {
+    font-weight: 400px;
+    font-size: 10px;
+    margin: 0;
+    font-size: large;
+    color: rgb(122, 0, 0)
+}
+
+article h3 {
+    margin: 0 0 20px 0;
+    font-size: small;
+}
+
+article h3 a {
+    color: rgb(197, 197, 197);
+
+}
+
+.content {
+    color: white;
+    margin: 15px 30px 15px 33px;
+}
+
+.content h1 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.content p {
+    margin: 0;
+    font-weight: 300px;
+    font-size: 12px;
+}
+
+.interactables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+
+}
+
+.interactables button {
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    display: flex;
+    width: 115px;
+    height: 34px;
+    background-color: navy;
+    padding: 14px 10px 15px 19px;
+    color: white;
+    border-style: none;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    justify-content: normal;
+    gap: 10px;
+}
+
+.interactables button:nth-child(1) {
+    background-color: white;
+    color: #1A1B21;
+}
+
+.interactables button:hover {
+   filter: contrast(80%);
 }
